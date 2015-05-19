@@ -1,13 +1,30 @@
 {
   "name": "generator-my-first-yeoman",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "CharlieGreenman/generator-my-first-yeoman",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://github.com/CharlieGreenman"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
   "files": [
-    "app",
-    "router"
+    "generators"
   ],
-  "keywords": ["yeoman-generator"],
+  "keywords": [
+    "yeoman-generator"
+  ],
   "dependencies": {
-    "yeoman-generator": "^0.17.3"
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
   }
 }
